@@ -17,6 +17,7 @@ import Profile from './pages/Profile';
 import Jobs from './pages/Jobs';
 import PostJob from './pages/PostJob';
 import Login from './pages/Login';
+import ChatHub from './components/ChatHub';
 
 export default function App() {
   return (
@@ -34,6 +35,7 @@ export default function App() {
           </Routes>
         </main>
         <Footer />
+        <ChatHub />
       </div>
     </Router>
   );
